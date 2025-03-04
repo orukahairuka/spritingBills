@@ -1,38 +1,36 @@
 //
 //  SpritingBillsUITests.swift
-//  SpritingBillsUITests
+//  SpritingBillsTests
 //
-//  Created by 櫻井絵理香 on 2025/03/03.
+//  Created by 櫻井絵理香 on 2025/03/04.
 //
 
 import XCTest
 
 final class SpritingBillsUITests: XCTestCase {
-
+    
+    //テスト開始前に実行
     override func setUpWithError() throws {
-        // Put setup code here. This method is called before the invocation of each test method in the class.
+        continueAfterFailure = false //失敗した際に中断するかどうかを決めるフラグ
 
-        // In UI tests it is usually best to stop immediately when a failure occurs.
-        continueAfterFailure = false
-
-        // In UI tests it’s important to set the initial state - such as interface orientation - required for your tests before they run. The setUp method is a good place to do this.
     }
-
+    
+    //テスト終了後に実行
     override func tearDownWithError() throws {
-        // Put teardown code here. This method is called after the invocation of each test method in the class.
+
     }
 
+    //テスト用メソッド
     func testExample() throws {
-        // UI tests must launch the application that they test.
         let app = XCUIApplication()
         app.launch()
 
-        // Use XCTAssert and related functions to verify your tests produce the correct results.
     }
 
+    //パフォーマンステスト用メソッド
     func testLaunchPerformance() throws {
         if #available(macOS 10.15, iOS 13.0, tvOS 13.0, watchOS 7.0, *) {
-            // This measures how long it takes to launch your application.
+            //時間を計測したい処理を記述
             measure(metrics: [XCTApplicationLaunchMetric()]) {
                 XCUIApplication().launch()
             }
