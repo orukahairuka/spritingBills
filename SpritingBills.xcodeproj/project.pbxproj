@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		3BDF2C1D2D77077A004E21F1 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 3BDF2C1C2D77077A004E21F1 /* Alamofire */; };
+		3BDF2C202D770855004E21F1 /* Lottie in Frameworks */ = {isa = PBXBuildFile; productRef = 3BDF2C1F2D770855004E21F1 /* Lottie */; };
 		3BEF3F692D75C8EC0075D809 /* SpritingBillsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BEF3F682D75C8EC0075D809 /* SpritingBillsApp.swift */; };
 		3BEF3F6B2D75C8EC0075D809 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BEF3F6A2D75C8EC0075D809 /* ContentView.swift */; };
 		3BEF3F6D2D75C8EE0075D809 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3BEF3F6C2D75C8EE0075D809 /* Assets.xcassets */; };
@@ -53,6 +54,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3BDF2C1D2D77077A004E21F1 /* Alamofire in Frameworks */,
+				3BDF2C202D770855004E21F1 /* Lottie in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -195,6 +197,7 @@
 			name = SpritingBills;
 			packageProductDependencies = (
 				3BDF2C1C2D77077A004E21F1 /* Alamofire */,
+				3BDF2C1F2D770855004E21F1 /* Lottie */,
 			);
 			productName = SpritingBills;
 			productReference = 3BEF3F652D75C8EC0075D809 /* SpritingBills.app */;
@@ -270,6 +273,7 @@
 			mainGroup = 3BEF3F5C2D75C8EC0075D809;
 			packageReferences = (
 				3B3DEC942D7703CC00D98580 /* XCRemoteSwiftPackageReference "Alamofire" */,
+				3BDF2C1E2D770844004E21F1 /* XCRemoteSwiftPackageReference "lottie-ios" */,
 			);
 			productRefGroup = 3BEF3F662D75C8EC0075D809 /* Products */;
 			projectDirPath = "";
@@ -654,6 +658,14 @@
 				minimumVersion = 5.10.2;
 			};
 		};
+		3BDF2C1E2D770844004E21F1 /* XCRemoteSwiftPackageReference "lottie-ios" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/airbnb/lottie-ios";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 4.5.1;
+			};
+		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
@@ -661,6 +673,11 @@
 			isa = XCSwiftPackageProductDependency;
 			package = 3B3DEC942D7703CC00D98580 /* XCRemoteSwiftPackageReference "Alamofire" */;
 			productName = Alamofire;
+		};
+		3BDF2C1F2D770855004E21F1 /* Lottie */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 3BDF2C1E2D770844004E21F1 /* XCRemoteSwiftPackageReference "lottie-ios" */;
+			productName = Lottie;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};
