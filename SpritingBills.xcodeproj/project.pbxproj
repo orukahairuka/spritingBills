@@ -75,14 +75,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		3B3DEC8F2D7702AB00D98580 /* View */ = {
-			isa = PBXGroup;
-			children = (
-				3B3DEC932D7702D000D98580 /* Util */,
-			);
-			path = View;
-			sourceTree = "<group>";
-		};
 		3B3DEC902D7702B700D98580 /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
@@ -102,13 +94,6 @@
 			children = (
 			);
 			path = Extension;
-			sourceTree = "<group>";
-		};
-		3B3DEC932D7702D000D98580 /* Util */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Util;
 			sourceTree = "<group>";
 		};
 		3BDF2C1B2D77077A004E21F1 /* Frameworks */ = {
@@ -145,7 +130,6 @@
 				3B3DEC922D7702CA00D98580 /* Extension */,
 				3B3DEC912D7702BF00D98580 /* Models */,
 				3B3DEC902D7702B700D98580 /* ViewModel */,
-				3B3DEC8F2D7702AB00D98580 /* View */,
 				3BEF3F682D75C8EC0075D809 /* SpritingBillsApp.swift */,
 				3BEF3F6A2D75C8EC0075D809 /* ContentView.swift */,
 				3BEF3F6C2D75C8EE0075D809 /* Assets.xcassets */,
