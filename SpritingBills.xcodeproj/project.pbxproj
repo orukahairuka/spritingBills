@@ -7,7 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3B85981C2D7C35B40098EC39 /* SwiftUICharts in Frameworks */ = {isa = PBXBuildFile; productRef = 3B85981B2D7C35B40098EC39 /* SwiftUICharts */; };
 		3BAFE7DC2D785F4000E26BC9 /* CalendarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BAFE7DB2D785F4000E26BC9 /* CalendarView.swift */; };
+		3BAFE7DE2D7868BB00E26BC9 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BAFE7DD2D7868BB00E26BC9 /* MainView.swift */; };
 		3BDF2C1D2D77077A004E21F1 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 3BDF2C1C2D77077A004E21F1 /* Alamofire */; };
 		3BDF2C202D770855004E21F1 /* Lottie in Frameworks */ = {isa = PBXBuildFile; productRef = 3BDF2C1F2D770855004E21F1 /* Lottie */; };
 		3BEF3F692D75C8EC0075D809 /* SpritingBillsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BEF3F682D75C8EC0075D809 /* SpritingBillsApp.swift */; };
@@ -38,6 +40,7 @@
 
 /* Begin PBXFileReference section */
 		3BAFE7DB2D785F4000E26BC9 /* CalendarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarView.swift; sourceTree = "<group>"; };
+		3BAFE7DD2D7868BB00E26BC9 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 		3BEF3F652D75C8EC0075D809 /* SpritingBills.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SpritingBills.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3BEF3F682D75C8EC0075D809 /* SpritingBillsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpritingBillsApp.swift; sourceTree = "<group>"; };
 		3BEF3F6A2D75C8EC0075D809 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -55,6 +58,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3B85981C2D7C35B40098EC39 /* SwiftUICharts in Frameworks */,
 				3BDF2C1D2D77077A004E21F1 /* Alamofire in Frameworks */,
 				3BDF2C202D770855004E21F1 /* Lottie in Frameworks */,
 			);
@@ -103,6 +107,7 @@
 			children = (
 				3BEF3F6A2D75C8EC0075D809 /* ContentView.swift */,
 				3BAFE7DB2D785F4000E26BC9 /* CalendarView.swift */,
+				3BAFE7DD2D7868BB00E26BC9 /* MainView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -193,6 +198,7 @@
 			packageProductDependencies = (
 				3BDF2C1C2D77077A004E21F1 /* Alamofire */,
 				3BDF2C1F2D770855004E21F1 /* Lottie */,
+				3B85981B2D7C35B40098EC39 /* SwiftUICharts */,
 			);
 			productName = SpritingBills;
 			productReference = 3BEF3F652D75C8EC0075D809 /* SpritingBills.app */;
@@ -269,6 +275,7 @@
 			packageReferences = (
 				3B3DEC942D7703CC00D98580 /* XCRemoteSwiftPackageReference "Alamofire" */,
 				3BDF2C1E2D770844004E21F1 /* XCRemoteSwiftPackageReference "lottie-ios" */,
+				3B85981A2D7C35950098EC39 /* XCRemoteSwiftPackageReference "ChartView" */,
 			);
 			productRefGroup = 3BEF3F662D75C8EC0075D809 /* Products */;
 			projectDirPath = "";
@@ -313,6 +320,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3BEF3F6B2D75C8EC0075D809 /* ContentView.swift in Sources */,
+				3BAFE7DE2D7868BB00E26BC9 /* MainView.swift in Sources */,
 				3BEF3F692D75C8EC0075D809 /* SpritingBillsApp.swift in Sources */,
 				3BAFE7DC2D785F4000E26BC9 /* CalendarView.swift in Sources */,
 			);
@@ -654,6 +662,14 @@
 				minimumVersion = 5.10.2;
 			};
 		};
+		3B85981A2D7C35950098EC39 /* XCRemoteSwiftPackageReference "ChartView" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/AppPear/ChartView";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.5.5;
+			};
+		};
 		3BDF2C1E2D770844004E21F1 /* XCRemoteSwiftPackageReference "lottie-ios" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/airbnb/lottie-ios";
@@ -665,6 +681,11 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
+		3B85981B2D7C35B40098EC39 /* SwiftUICharts */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 3B85981A2D7C35950098EC39 /* XCRemoteSwiftPackageReference "ChartView" */;
+			productName = SwiftUICharts;
+		};
 		3BDF2C1C2D77077A004E21F1 /* Alamofire */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = 3B3DEC942D7703CC00D98580 /* XCRemoteSwiftPackageReference "Alamofire" */;
