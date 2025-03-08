@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		3B85981C2D7C35B40098EC39 /* SwiftUICharts in Frameworks */ = {isa = PBXBuildFile; productRef = 3B85981B2D7C35B40098EC39 /* SwiftUICharts */; };
+		3B85981E2D7C37060098EC39 /* CalculateViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B85981D2D7C37060098EC39 /* CalculateViewModel.swift */; };
+		3B8598202D7C37160098EC39 /* CalculateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B85981F2D7C37160098EC39 /* CalculateView.swift */; };
 		3BAFE7DC2D785F4000E26BC9 /* CalendarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BAFE7DB2D785F4000E26BC9 /* CalendarView.swift */; };
 		3BAFE7DE2D7868BB00E26BC9 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BAFE7DD2D7868BB00E26BC9 /* MainView.swift */; };
 		3BDF2C1D2D77077A004E21F1 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 3BDF2C1C2D77077A004E21F1 /* Alamofire */; };
@@ -39,6 +41,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3B85981D2D7C37060098EC39 /* CalculateViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculateViewModel.swift; sourceTree = "<group>"; };
+		3B85981F2D7C37160098EC39 /* CalculateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculateView.swift; sourceTree = "<group>"; };
 		3BAFE7DB2D785F4000E26BC9 /* CalendarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarView.swift; sourceTree = "<group>"; };
 		3BAFE7DD2D7868BB00E26BC9 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 		3BEF3F652D75C8EC0075D809 /* SpritingBills.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SpritingBills.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -84,6 +88,7 @@
 		3B3DEC902D7702B700D98580 /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
+				3B85981D2D7C37060098EC39 /* CalculateViewModel.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -108,6 +113,7 @@
 				3BEF3F6A2D75C8EC0075D809 /* ContentView.swift */,
 				3BAFE7DB2D785F4000E26BC9 /* CalendarView.swift */,
 				3BAFE7DD2D7868BB00E26BC9 /* MainView.swift */,
+				3B85981F2D7C37160098EC39 /* CalculateView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -320,7 +326,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				3BEF3F6B2D75C8EC0075D809 /* ContentView.swift in Sources */,
+				3B8598202D7C37160098EC39 /* CalculateView.swift in Sources */,
 				3BAFE7DE2D7868BB00E26BC9 /* MainView.swift in Sources */,
+				3B85981E2D7C37060098EC39 /* CalculateViewModel.swift in Sources */,
 				3BEF3F692D75C8EC0075D809 /* SpritingBillsApp.swift in Sources */,
 				3BAFE7DC2D785F4000E26BC9 /* CalendarView.swift in Sources */,
 			);
